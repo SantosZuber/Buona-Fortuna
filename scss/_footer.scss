@@ -1,0 +1,39 @@
+footer {
+    //Footer con absolute
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    position: absolute;
+    bottom: -2000;
+    flex-direction: column;
+    background-color: black;
+    width: 100%;
+
+    //Footer con relative desactivado
+    /*
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    background-color: black;
+    width: 100%;
+    z-index: -1;
+*/
+    span {
+        display: flex;
+        justify-content: center;
+    }
+
+    a {
+        width: fit-content;
+        .tripadvisor {
+            width: 100px;
+        }
+    }
+
+    p {
+        text-align: center;
+        color: white;
+        margin: 10px;
+        font-size: 70%;
+    }
+}

@@ -1,0 +1,17 @@
+.banner {
+    width: 100%;
+    overflow: hidden;
+    h1 {
+        font-family: Roboto;
+        position: relative;
+        text-align: center;
+        color: white;
+        font-size: 700%;
+        z-index: 50;
+    }
+    img {
+        filter: blur(7px);
+        width: 100%;
+        height: 700px;
+    }
+}

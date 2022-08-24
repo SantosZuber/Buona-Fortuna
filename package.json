@@ -1,0 +1,23 @@
+{
+  "name": "buonafortuna_zuberbuhler",
+  "version": "1.0.0",
+  "description": "Proyecto Final DW Restaurante ficticio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SantosZuber/Buona_Fortuna.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SantosZuber/Buona_Fortuna/issues"
+  },
+  "homepage": "https://github.com/SantosZuber/Buona_Fortuna#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
